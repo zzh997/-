@@ -41,8 +41,6 @@ Page({
           }).then(res => {
             console.log(res)
           })
-
-
         } else {
           console.log('登录失败！' + res.errMsg)
         }
